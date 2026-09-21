@@ -1,0 +1,33 @@
+Meeting: Website Redesign - Sprint Planning
+Date: 30 September 2026
+Attendees: Priya (Product Manager), Arjun (Backend Developer), Meera (UI/UX Designer), Rahul (QA Engineer)
+
+Priya: Thanks everyone for joining. Goal for today is to lock the scope for the beta launch of the new website. Where are we on checkout?
+
+Arjun: The checkout API is about 70 percent done. I can finish it by October 8th, but I'm blocked on the payment gateway. We still don't have the sandbox credentials from the vendor, so I can't test real payments.
+
+Priya: Okay, I'll chase the vendor. I'll email them today and try to get the credentials by October 3rd.
+
+Meera: On the design side, desktop mockups are approved. Mobile mockups still need one more round. I can deliver the final mobile designs by October 5th.
+
+Priya: Good. Now, dark mode. Marketing asked for it in the beta. Thoughts?
+
+Arjun: It would add at least a week of work. I think we should push it out.
+
+Meera: Agreed, it needs design work on every screen too.
+
+Priya: Alright, decision made: dark mode is postponed to the next release. Beta scope is checkout, product pages and the new navigation only.
+
+Priya: And the beta launch date? I'd like October 15th.
+
+Rahul: That's tight for me. I'm the only QA person and I haven't started the test plan. If the payment credentials arrive late, I won't have time for a full regression pass.
+
+Priya: Understood. Can you draft the test plan by October 10th so we can see what's realistic?
+
+Rahul: Yes, I'll do that.
+
+Priya: Let's commit to October 15th for the beta launch, and we'll review on October 10th if it looks at risk.
+
+Arjun: One more thing, the API documentation is out of date. Someone should update it before the beta, otherwise the mobile team will keep asking me questions.
+
+Priya: Fair point. We'll need that, but let's figure out who takes it offline. Anything else? No? Great, thanks everyone.

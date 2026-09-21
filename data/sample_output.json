@@ -1,0 +1,90 @@
+{
+  "analysis": {
+    "title": "Website Redesign - Sprint Planning",
+    "summary": "The team met to lock the scope of the new website's beta launch. Checkout development is on track but blocked by missing payment gateway credentials. Dark mode was postponed to keep the beta achievable, and the team committed to a beta launch on October 15th with a scope check on October 10th.",
+    "key_points": [
+      "Checkout API is about 70% complete",
+      "Desktop mockups approved; mobile mockups need one more round",
+      "Dark mode would add about a week of work plus design on every screen",
+      "QA has a single engineer and no test plan yet",
+      "API documentation is out of date"
+    ],
+    "decisions": [
+      {
+        "decision": "Postpone dark mode to the next release",
+        "context": "It needs at least a week of dev work and design on all screens."
+      },
+      {
+        "decision": "Beta scope is checkout, product pages and new navigation only",
+        "context": null
+      },
+      {
+        "decision": "Commit to October 15th for the beta launch",
+        "context": "Progress will be reviewed on October 10th."
+      }
+    ],
+    "action_items": [
+      {
+        "task": "Email the payment vendor to obtain sandbox credentials",
+        "owner": "Priya",
+        "deadline": "October 3rd",
+        "priority": "high"
+      },
+      {
+        "task": "Finish the checkout API",
+        "owner": "Arjun",
+        "deadline": "October 8th",
+        "priority": "high"
+      },
+      {
+        "task": "Deliver final mobile designs",
+        "owner": "Meera",
+        "deadline": "October 5th",
+        "priority": "medium"
+      },
+      {
+        "task": "Draft the QA test plan",
+        "owner": "Rahul",
+        "deadline": "October 10th",
+        "priority": "high"
+      },
+      {
+        "task": "Update the API documentation before the beta",
+        "owner": "Unassigned",
+        "deadline": null,
+        "priority": "medium"
+      }
+    ],
+    "risks_blockers": [
+      {
+        "description": "Payment gateway sandbox credentials have not been received",
+        "type": "blocker",
+        "severity": "high",
+        "mitigation": "Priya will chase the vendor by October 3rd"
+      },
+      {
+        "description": "Only one QA engineer; late credentials could squeeze regression testing",
+        "type": "risk",
+        "severity": "high",
+        "mitigation": "Test plan due October 10th to check feasibility"
+      },
+      {
+        "description": "Outdated API docs may slow the mobile team",
+        "type": "risk",
+        "severity": "low",
+        "mitigation": null
+      }
+    ]
+  },
+  "metrics": {
+    "transcript_words": 328,
+    "est_read_minutes_transcript": 1.6,
+    "est_read_minutes_report": 1.0,
+    "est_minutes_saved_per_reader": 0.7,
+    "action_items_total": 5,
+    "action_items_with_owner": 4,
+    "action_items_with_deadline": 4,
+    "accountability_score": 80.0
+  },
+  "model_used": "anthropic:claude-sonnet-5 (illustrative)"
+}
